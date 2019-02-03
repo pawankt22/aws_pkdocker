@@ -9,7 +9,7 @@ module "codecommit-cicd" {
   repo_default_branch       = "master"                                                                         # Default value
   aws_region                = "us-west-2"                                                                      # Default value
   char_delimiter            = "-"                                                                              # Default value
-  environment               = "dev"                                                                            # Default value
+  environment               = "test"                                                                            # Default value
   build_timeout             = "5"                                                                              # Default value
   build_compute_type        = "BUILD_GENERAL1_SMALL"                                                           # Default value
   build_image               = "aws/codebuild/docker:10.14.1"                                                   # Default value
